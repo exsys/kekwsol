@@ -80,26 +80,26 @@ export default function HomeSection() {
                             Socials
                         </h2>
 
-                        <nav className="flex gap-8 items-center fill-white drop-shadow-md">
+                        <nav className="flex gap-8 items-center drop-shadow-md">
                             <Link href={"https://twitter.com/KEKWSolana"} target="_blank"
                                 className="button-clr rounded-full w-[60px] h-[60px]
                                 flex justify-center items-center">
-                                <TwitterX className="w-[60px] h-[60px]" />
+                                <TwitterX className="w-[60px] h-[60px] fill-white" />
                             </Link>
                             <Link href={"https://t.me/kekw_spl"} target="_blank"
                                 className="button-clr rounded-full w-[60px] h-[60px]
                                 flex justify-center items-center">
-                                <Telegram className="w-[44px] h-[44px]" />
+                                <Telegram className="w-[44px] h-[44px] fill-white" />
                             </Link>
                             <Link href={"https://dexscreener.com/solana/35it9pqarypj1trxrrx2erjxsnyw6mq6cr58vgrq5gnn"} target="_blank"
                                 className="button-clr rounded-full w-[60px] h-[60px]
                                 flex justify-center items-center">
-                                <DexScreener className="w-[52px] h-[52px]" />
+                                <DexScreener className="w-[52px] h-[52px] fill-white" />
                             </Link>
                             <Link href={"https://jup.ag/swap/SOL-KEKW"} target="_blank"
                                 className="button-clr rounded-full w-[60px] h-[60px]
                                 flex justify-center items-center">
-                                <Jupiter className="w-[44px] h-[44px]" />
+                                <Jupiter className="w-[44px] h-[44px] fill-white" />
                             </Link>
                         </nav>
                     </div>
