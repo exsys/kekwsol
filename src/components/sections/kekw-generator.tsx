@@ -13,7 +13,7 @@ export default function KekwGenerator() {
     return (
         <section id="kekw-section" className="h-fit">
             <div className="h-full flex flex-col gap-20 justify-center items-center py-20">
-                <div className="w-[96%] lg:w-3/4 mx-auto flex flex-col items-center gap-10">
+                <div className="w-[96%] lg:w-3/4 mx-auto flex flex-col items-center gap-10 drop-shadow-md">
                     <h1 className="text-5xl font-semibold text-center">
                         Are you maxbidding anon?
                     </h1>
@@ -27,8 +27,9 @@ export default function KekwGenerator() {
                     </div>
 
                     <div>
-                        <button className="bg-amber-800/80 py-3 px-10 rounded-full text-white text-xl font-semibold
-                        hover:bg-amber-800/90 transition-all active:scale-95" onClick={() => randomKekw()}>
+                        <button className="py-3 px-10 rounded-full text-xl font-semibold active:!scale-95 button-clr hover:!scale-100
+                        drop-shadow-md"
+                        onClick={() => randomKekw()}>
                             KEKW
                         </button>
                     </div>

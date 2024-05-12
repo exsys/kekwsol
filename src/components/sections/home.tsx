@@ -67,38 +67,37 @@ export default function HomeSection() {
 
             <div className="h-full flex flex-col gap-12 lg:gap-2 lg:flex-row justify-center items-center w-3/4 mx-auto py-24">
                 <div className="flex flex-col gap-10 items-center flex-1">
-                    <h1 className="text-7xl font-semibold text-white drop-shadow">
+                    <h1 className="text-7xl font-semibold drop-shadow-md">
                         $KEKW
                     </h1>
 
                     <Link href={"https://jup.ag/swap/SOL-KEKW"} target="_blank"
-                        className="py-3 px-12 bg-amber-800/80 rounded-full drop-shadow cursor-pointer text-xl font-semibold transition-all
-                        hover:bg-amber-800/90 text-white hover:scale-95 border-2 border-amber-800">
+                        className="py-3 px-12 button-clr rounded-full drop-shadow cursor-pointer text-xl font-semibold">
                         Buy now
                     </Link>
                     <div>
-                        <h2 className="text-center text-4xl text-white drop-shadow mb-6 font-semibold">
+                        <h2 className="text-center text-4xl drop-shadow-md mb-6 font-semibold">
                             Socials
                         </h2>
 
                         <nav className="flex gap-8 items-center fill-white drop-shadow-md">
                             <Link href={"https://twitter.com/KEKWSolana"} target="_blank"
-                                className="transition-all hover:scale-95 bg-amber-800/80 rounded-full w-[60px] h-[60px]
+                                className="button-clr rounded-full w-[60px] h-[60px]
                                 flex justify-center items-center">
                                 <TwitterX className="w-[60px] h-[60px]" />
                             </Link>
                             <Link href={"https://t.me/kekw_spl"} target="_blank"
-                                className="transition-all hover:scale-95  bg-amber-800/80 rounded-full w-[60px] h-[60px]
+                                className="button-clr rounded-full w-[60px] h-[60px]
                                 flex justify-center items-center">
                                 <Telegram className="w-[44px] h-[44px]" />
                             </Link>
                             <Link href={"https://dexscreener.com/solana/35it9pqarypj1trxrrx2erjxsnyw6mq6cr58vgrq5gnn"} target="_blank"
-                                className="transition-all hover:scale-95 bg-amber-800/80 rounded-full w-[60px] h-[60px]
+                                className="button-clr rounded-full w-[60px] h-[60px]
                                 flex justify-center items-center">
                                 <DexScreener className="w-[52px] h-[52px]" />
                             </Link>
                             <Link href={"https://jup.ag/swap/SOL-KEKW"} target="_blank"
-                                className="transition-all hover:scale-95 bg-amber-800/80 rounded-full w-[60px] h-[60px]
+                                className="button-clr rounded-full w-[60px] h-[60px]
                                 flex justify-center items-center">
                                 <Jupiter className="w-[44px] h-[44px]" />
                             </Link>

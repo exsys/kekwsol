@@ -8,10 +8,15 @@ body, html {
 
 body {
   overflow-x: hidden;
-  background-color: rgb(245, 213, 174);
+  /*background-color: rgb(245, 213, 174);*/
   scroll-behavior: smooth;
+  background: linear-gradient(90deg, #FE5757 0%, #8D52FE 100%);
+  color: white;
 }
 
 @layer utilities {
-  
+  .button-clr {
+    @apply bg-[#00AEEF] border-2 border-[#083947] transition-all;
+    @apply hover:bg-[#00bbff] hover:scale-95;
+  }
 }
