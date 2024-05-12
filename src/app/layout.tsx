@@ -7,7 +7,7 @@ const lilita = Lilita_One({ weight: "400", subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: "KEKW",
-  description: "KEKW is now on Solana.",
+  description: "The one and only legend El Risitas is KEKW'ing through Solana.",
 };
 
 export const viewport: Viewport = {
