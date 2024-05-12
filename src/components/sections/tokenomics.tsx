@@ -5,7 +5,7 @@ export default function Tokenomics() {
 
     return (
         <section id="kekenomics" className="h-fit lg:h-full">
-            <div className="h-fit lg:h-full flex flex-col justify-center items-center gap-10 py-20 lg:py-0">
+            <div className="h-fit lg:h-full flex flex-col justify-center items-center gap-10 py-20 lg:py-0 lg:-mt-20">
                 <h1 className="text-6xl sm:text-7xl font-semibold mb-10 drop-shadow-md">
                     Kekenomics
                 </h1>
