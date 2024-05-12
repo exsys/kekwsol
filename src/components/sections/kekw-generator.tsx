@@ -12,7 +12,7 @@ export default function KekwGenerator() {
 
     return (
         <section id="kekw-section" className="h-fit">
-            <div className="h-full flex flex-col gap-20 justify-center items-center drop-shadow-md py-20">
+            <div className="h-full flex flex-col gap-20 justify-center items-center py-20">
                 <div className="w-[96%] lg:w-3/4 mx-auto flex flex-col items-center gap-10">
                     <h1 className="text-5xl font-semibold text-center">
                         Are you maxbidding anon?
@@ -22,7 +22,7 @@ export default function KekwGenerator() {
                 </div>
 
                 <div className="flex flex-col items-center gap-6">
-                    <div className="w-[128px] h-[128px]">
+                    <div className="w-[128px] h-[128px] drop-shadow">
                         <img src={currentKekw.src} alt={currentKekw.alt} className="w-full" />
                     </div>
 
