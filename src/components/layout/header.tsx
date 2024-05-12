@@ -7,13 +7,13 @@ export default function Header() {
                 <img src="/images/kekw.png" alt="logo" className="w-[70px] rounded-full drop-shadow-md" />
 
                 <nav className="hidden sm:flex items-center gap-12 text-white">
-                    <Link href="#info-section" className="text-xl font-medium">
+                    <Link href="#info-section" className="text-2xl font-medium">
                         About
                     </Link>
-                    <Link href="#kekenomics" className="text-xl font-medium">
+                    <Link href="#kekenomics" className="text-2xl font-medium">
                         Kekenomics
                     </Link>
-                    <Link href="#kekw-section" className="text-xl font-medium">
+                    <Link href="#kekw-section" className="text-2xl font-medium">
                         Kekw
                     </Link>
                 </nav>

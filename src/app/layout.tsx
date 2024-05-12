@@ -1,8 +1,9 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Lilita_One } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const lilita = Lilita_One({ weight: "400", subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: "KEKW",
@@ -18,7 +19,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className="scroll-smooth" style={{ scrollBehavior: 'smooth' }}>
-      <body className={`${inter.className}`}>
+      <body className={`${lilita.className} ${inter.className}`}>
         {children}
       </body>
     </html>

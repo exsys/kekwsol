@@ -3,7 +3,7 @@ import Header from "@/components/layout/header";
 import HomeSection from "@/components/sections/home";
 import InfoSection from "@/components/sections/info";
 import KekwGenerator from "@/components/sections/kekw-generator";
-import MemesSection from "@/components/sections/memes";
+//import MemesSection from "@/components/sections/memes";
 import Tokenomics from "@/components/sections/tokenomics";
 
 export default function Home() {
